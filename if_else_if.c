@@ -4,15 +4,13 @@ int main(){
 	printf("enter marks \n");
 	scanf("%d",&marks);
 	if(marks>35 && marks<=50){
-		printf("c grade \n");
-		 if(marks>51 && marks<=70){
-			printf("b grade \n");
-		}
-		else if(marks>71 && marks<=100){
-			printf("a grade \n");
-		}else{
-			printf("fail");
-		}
+		printf("grade c \n");
+	}else if(marks>51 && marks<=70){
+		printf("grade b \n");
+	}else if(marks>71 && marks<=100){
+		printf("grade a \n");
+	}else{
+		printf("fail");
 	}
 	return 0;
 }
